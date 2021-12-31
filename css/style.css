@@ -1,0 +1,100 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+:root {
+  --blue:#3a33ff;
+  --white:#FEFEFF;
+  --medium-blue:#b7aafe;
+
+  --blue-dark:#0700cc;
+
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  transition: all 400ms ease-in-out;
+  -webkit-transition: all 400ms ease-in-out;
+  -moz-transition: all 400ms ease-in-out;
+  -ms-transition: all 400ms ease-in-out;
+  -o-transition: all 400ms ease-in-out;
+}
+
+.bg-purple {
+  background-color: var(--blue);
+}
+
+.bg-purple-dark {
+  background-color: var(--blue-dark);
+}
+
+.nav-link {
+  transition: all 200ms ease-in-out;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+}
+
+.nav-link:hover {
+  color: var(--blue) !important;
+}
+
+.text-purple {
+  color: var(--blue);
+}
+
+.btn:focus {
+  box-shadow: none !important;
+  outline: none !important;
+  border: none !important;
+}
+
+button:focus {
+  box-shadow: none !important;
+  outline: none !important;
+  border: none !important;
+}
+
+i {
+  transition: all 200ms ease-in-out;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+}
+
+input:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.color-anim {
+  animation: color 4s alternate infinite;
+  -webkit-animation: color 4s alternate infinite;
+}
+
+@keyframes color {
+  
+  20% {
+    color: var(--blue);
+  }
+
+  40% {
+    color: #83D4A0;
+  }
+
+  60% {
+    color: #D66F4D;
+  }
+
+  80% {
+    color: #8328C7;
+  }
+
+  100% {
+    color: #3B5BCC;
+  }
+
+
+}
